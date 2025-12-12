@@ -60,7 +60,8 @@ module.exports = {
           await api.sendMessage(`✅ Added user ${i + 1}/${usersToAdd.length}`, threadID);
         } catch (error) {
           failedCount++;
-          console.log(`Failed to add user ${usersToAdd[i]}:`, error?.message || error);
+          const errMsg = error?.message || error?.error || JSON.stringify(error) || 'Unknown error';
+          await api.sendMessage(`❌ Failed to add user ${i + 1}: ${errMsg}`, threadID);
         }
       }
 
