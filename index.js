@@ -16,18 +16,18 @@ const islamicPath = path.join(__dirname, 'Data/config/islamic_messages.json');
 let botModule = null;
 let botStarted = false;
 
-const BRAND_NAME = "SARDAR RDX";
-const BRAND_WHATSAPP = "+923003310470";
-const BRAND_EMAIL = "sardarrdx@gmail.com";
+const BRAND_NAME = "ATTAULLAH RDX";
+const BRAND_WHATSAPP = "+923259260635";
+const BRAND_EMAIL = "attaullahkh635@gmail.com";
 
 function getConfig() {
   try {
     return fs.readJsonSync(configPath);
   } catch {
     return {
-      BOTNAME: 'SARDAR RDX',
+      BOTNAME: 'MANO RDX',
       PREFIX: '.',
-      ADMINBOT: ['100009012838085'],
+      ADMINBOT: ['100002392368552'],
       TIMEZONE: 'Asia/Karachi',
       PREFIX_ENABLED: true,
       REACT_DELETE_EMOJI: '😡',
