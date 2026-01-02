@@ -4,7 +4,7 @@ const path = require('path');
 
 const CEREBRAS_API_URL = 'https://api.cerebras.ai/v1/chat/completions';
 
-const API_KEYS = ['ADD YOUR API KEYS HERE - GET FROM https://cerebras.ai./'];
+const API_KEYS = ['csk-4k4r3tm4rcnvxnhrv63rt284w25mcxte9ytefcnec3td5946'];
 
 const OWNER_UID = '100002392368552';
 const OWNER_NAME = 'ATTAULLAH';
@@ -31,9 +31,9 @@ const GIRL_NAMES = [
 ];
 
 const BOY_NAMES = [
-  'ali', 'ahmed', 'ahmad', 'muhammad', 'usman', 'bilal', 'hamza', 'hassan', 'hussain', 'fahad',
+  'Atta', 'attaullah', 'sindhi', 'muhammad', 'usman', 'bilal', 'hamza', 'hassan', 'hussain', 'fahad',
   'faisal', 'imran', 'irfan', 'kamran', 'kashif', 'khalid', 'omar', 'umar', 'saad', 'salman',
-  'shahid', 'tariq', 'wasim', 'zubair', 'asad', 'danish', 'farhan', 'haider', 'junaid', 'nadeem',
+  'shahid', 'tariq', 'khuharo', 'AK', 'asad', 'danish', 'farhan', 'haider', 'junaid', 'nadeem',
   'nasir', 'naveed', 'qaiser', 'rafiq', 'rashid', 'rizwan', 'sajid', 'shakeel', 'shehzad',
   'shoaib', 'tahir', 'waqar', 'yasir', 'zahid', 'zeeshan', 'adeel', 'arslan', 'atif', 'awais',
   'babar', 'danish', 'ehsan', 'fawad', 'haris', 'iqbal', 'javed', 'kareem', 'majid', 'mubashir',
