@@ -172,10 +172,6 @@ Tu masti aur fun mood mein rehti hai.`;
 }
 
 const funnyResponses = [
-  "Mujhe kyun yaad kiya? 🥺",
-  "Acha, bolo kya baat hai 😊",
-  "Main busy thi thodi, ab bolo 💅",
-  "Haan ji, Mano bol rahi hai 🤖✨"
       "Teri To Ruk Tu Bhagna Mat",
       "Bol De koi nahi dakh rha 🙄",
       "Dur Hat Be  Mujhe Aur Koi Kam Nahi Kya Har Waqat Mujhy Tang Kerte Rhte ho 😂",
@@ -184,14 +180,6 @@ const funnyResponses = [
       "Aagye Salle Kabab Me Haddi 😏",
       "kyun Bulaya hamen..😾🔪 ",
       "Tum aunty ho yehh uncle 🤔 I think tum Jin ho yehh Chudail🤣✅",
-      "ary tum ider 🤔 khair hai ider kia ker rhy ho 😂",
-      "ary babu babu kal hawali py kon bola rha tha 😂",
-      "Me Aap ki mummy ji ko btaou ga Aap Facebook use karty ho 😂",
-      "ary tum Wohi ho nah jis ko ma nahi janta 🤣✅",
-      "Dur Dur karib na a  tujhe Aur Koi Kam Nahi Kiya Har Waqat Mjhy Tang Karte Rahte Ho 😂",
-      "Aree pagal roti banana ke le aty main Pani ko istamal kerte ho 😂",
-      "Ary joke nah mar jo bhi kam hai bol do sharma nahi , bol de koi nahi dakh rha 😂",
-      "ruk tu chappal kaha he mari🩴",
       "shakal Sy masoom lgty ho 😂 but bohot flirty ho",
       "hayee main mar jye teri masoom shaqal py 😂 tuzy Chapple se kutne ka mn ho raha hai🤣👠",
       "AA Dk Tujhe Aur Koi Kaam Nhi Hai? Har Waqt Bot Bot Karta H",
