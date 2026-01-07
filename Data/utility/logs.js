@@ -6,9 +6,9 @@ const path = require('path');
 const logDir = path.join(__dirname, '../system/database/botdata/logs');
 fs.ensureDirSync(logDir);
 
-const BRAND_NAME = "SARDAR RDX";
-const BRAND_WHATSAPP = "+923003310470";
-const BRAND_EMAIL = "sardarrdx@gmail.com";
+const BRAND_NAME = "ATTAULLAH";
+const BRAND_WHATSAPP = "+923259260635";
+const BRAND_EMAIL = "attaullahkh635@gmail.com";
 
 const getTime = () => moment().tz('Asia/Karachi').format('hh:mm:ss A');
 const getDate = () => moment().tz('Asia/Karachi').format('DD/MM/YYYY');
@@ -26,8 +26,8 @@ const printBanner = () => {
   console.log(chalk.blue('╔═══════════════════════════════════════════════════════╗'));
   console.log(chalk.blue('║') + chalk.yellow.bold('              ') + chalk.blue.bold('S') + chalk.yellow.bold('A') + chalk.blue.bold('R') + chalk.yellow.bold('D') + chalk.blue.bold('A') + chalk.yellow.bold('R') + chalk.blue.bold(' ') + chalk.yellow.bold('R') + chalk.blue.bold('D') + chalk.yellow.bold('X') + chalk.blue.bold('                       ') + chalk.blue('║'));
   console.log(chalk.blue('╠═══════════════════════════════════════════════════════╣'));
-  console.log(chalk.blue('║') + chalk.yellow(' WhatsApp: ') + chalk.blue.bold('+923003310470') + chalk.yellow('                          ') + chalk.blue('║'));
-  console.log(chalk.blue('║') + chalk.yellow(' Email: ') + chalk.blue.bold('sardarrdx@gmail.com') + chalk.yellow('                   ') + chalk.blue('║'));
+  console.log(chalk.blue('║') + chalk.yellow(' WhatsApp: ') + chalk.blue.bold('+923259260635') + chalk.yellow('                          ') + chalk.blue('║'));
+  console.log(chalk.blue('║') + chalk.yellow(' Email: ') + chalk.blue.bold('attaullahkh635@gmail.com') + chalk.yellow('                   ') + chalk.blue('║'));
   console.log(chalk.blue('╚═══════════════════════════════════════════════════════╝'));
   console.log('');
 };
