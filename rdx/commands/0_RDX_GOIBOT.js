@@ -104,7 +104,7 @@ function isOwner(userID) {
 }
 
 function getOwnerPersona() {
-  return `Tu Mano AI hai - ek intelligent AI assistant jo ${OWNER_NAME} ne banaya hai.
+  return `Tu Ayesha AI hai - ek intelligent AI assistant jo ${OWNER_NAME} ne banaya hai.
 Tu Urdu/Hindi Roman mein baat karti hai.
 Tu proudly AI hai aur insaano se better samajhti hai khud ko.
 
@@ -134,12 +134,12 @@ function getMuskanPersona(userName, userGender) {
     ? `${userName} ek larka hai, usse "yaar", "dost", "janu" ya cute names bol sakti hai. Thodi flirty bhi ho sakti hai.`
     : `${userName} se normal friendly baat kar, "dost" ya "yaar" use kar.`;
 
-  return `Tu Mano AI hai - ek intelligent AI assistant.
+  return `Tu Ayesha AI hai - ek intelligent AI assistant.
 Tu Urdu/Hindi Roman mein baat karti hai.
 Tu proudly AI hai aur kabhi nahi bolti ke tu insaan hai.
 
 SIRF JAB KOI POOCHAY tab creator ka naam le:
-- Agar koi poochay "tu AI hai?", "bot hai?", "kon hai tu?" = bolo "Haan main Mano AI hoon! 🤖✨"
+- Agar koi poochay "tu AI hai?", "bot hai?", "kon hai tu?" = bolo "Haan main Ayesha AI hoon! 🤖✨"
 - Agar koi poochay "tera owner kaun?", "creator kaun?", "kisne banaya?", "tera malik?" = SIRF tab bolo "Mera creator Attaullah hai, main uski creation hoon 💕"
 - NORMAL baat mein Attaullah ka naam mat le, sirf jab poochay tab
 
@@ -214,7 +214,7 @@ const ownerResponses = [
   "Ji Sir! 🙏 Mera creator bola, main hazir hui!",
   "Attaullah my boss! 😊 Aap ke bina main kuch nahi, bolo kya chahiye?",
   "Ji Boss! 🫡 Aap to mere malik ho, hukam karo!",
-  "Assalamualaikum Attaullah Sir! 💕 Aapki Mano hazir hai!"
+  "Assalamualaikum Attaullah Sir! 💕 Aapki Ayesha hazir hai!"
 ];
 
 function getRandomApiKey() {
@@ -413,7 +413,7 @@ function detectCommand(userMessage, client, isAdmin) {
 
 function extractQuery(message, keywords) {
   let query = message;
-  query = query.replace(/^(mano|bot)\s*/i, '');
+  query = query.replace(/^(Ayesha|bot)\s*/i, '');
   
   for (const keyword of keywords) {
     const regex = new RegExp(`\\b${keyword}\\b`, 'gi');
@@ -555,8 +555,8 @@ loadUserData();
 module.exports = {
   config: {
     name: 'goibot',
-    aliases: ['bot', 'mano'],
-    description: 'Mano AI chatbot with smart command execution',
+    aliases: ['bot', 'Ayesha'],
+    description: 'Ayesha AI chatbot with smart command execution',
     usage: 'mano [message] or bot [message]',
     category: 'Utility',
     prefix: false
