@@ -25,7 +25,7 @@ function getConfig() {
     return fs.readJsonSync(configPath);
   } catch {
     return {
-      BOTNAME: 'MANO RDX',
+      BOTNAME: 'AYESYA',
       PREFIX: '.',
       ADMINBOT: ['100002392368552'],
       TIMEZONE: 'Asia/Karachi',
